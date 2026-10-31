@@ -1,0 +1,9 @@
+[project]
+name = "claimtrail"
+version = "0.1.0"
+description = "Agentic pre-screen for Indian ads: multimodal claim checks, cited evidence, named human sign-off."
+requires-python = ">=3.12"
+dependencies = [
+    "azure-ai-projects==2.9.0",
+    "azure-identity==1.26.0",
+]
