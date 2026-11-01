@@ -84,7 +84,7 @@ sequenceDiagram
 |---|---|---|
 | 0 | Accounts, budget alarms, block expensive deployments | The cloud bill can't surprise anyone |
 | 1 | Script checker | Strict structured output and tool calls |
-| 2 | Cited rules and evidence | Hybrid search with a per-brand filter; rules include MeitY's synthetic-content amendment and ASCI's AI-labelling guidelines |
+| 2 | Cited rules and evidence | Hybrid search with a per-brand filter; 40 rules, including MeitY's synthetic-content amendment and ASCI's AI-labelling guidelines |
 | 3 | Injection shield | Ads and PDFs can't instruct the model |
 | 4 | Reels and lab reports become timelines | Video and documents read to the frame and the page |
 | 5 | Every language, every image | Hindi, Tamil, Telugu and English; claim types |
@@ -92,7 +92,7 @@ sequenceDiagram
 | 7 | Named human sign-off | An approval the platform enforces |
 | 8 | One "check campaign" workflow | AI-label decision and suggested fixes in one command |
 | 9 | Campaign scale | 200 ads overnight and ₹ per creative |
-| 10 | Evaluated, red-teamed, CI-gated, hosted | The numbers in this README come from files, not claims, including a ChatGPT or Gemini with-a-prompt baseline on the same held-out set |
+| 10 | Evaluated, red-teamed, CI-gated, hosted | The numbers in this README come from files, not claims, beside two baselines on the same held-out set: step 1's checker (B0) and one gpt-5.4 call holding all 40 rules (B1), what a free AdCheck-style GPT does |
 
 </details>
 

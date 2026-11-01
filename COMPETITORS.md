@@ -47,9 +47,9 @@ How much each need matters is our judgement for a brand or agency team clearing 
 
 | Change | Why |
 |---|---|
-| ✅ **Step 10 gains a baseline:** run ChatGPT or Gemini with an AdCheck-style prompt on the same held-out set, and publish both numbers | It answers "why not ChatGPT?" with a measurement instead of an argument. ClaimTrail has to beat it on timed disclaimers, regional speech and evidence citations, or say plainly where it doesn't |
+| ✅ **Step 10 gains a second baseline, B1:** one gpt-5.4 call with all 40 rules and the same view of the ad, no tools, on the same held-out set; the README number reports it beside B0 | B0 (step 1's checker) knows only 5 rules, so beating it proves little. B1 is what an AdCheck-style GPT does, so it answers "why not ChatGPT?" with a measurement. ClaimTrail has to beat it on timed disclaimers, regional speech and evidence citations, or say plainly where it doesn't. Added to the step 10 walkthrough with tests (71 pass) |
 | ✅ **Lead the README demo with a Hindi or Telugu reel** (steps 4 and 5), not a script check | Checking a script is what the free GPT already does; timed regional video is the gap |
-| ✅ **Step 2's rule library adds** MeitY's synthetic-content rules (Feb 2026) and ASCI's AI-labelling guidelines (from 29 Dec 2026) | Both are new, specific and checkable; competitors mention AI labels only in general terms |
+| ✓ **Already in step 2's rule library:** MeitY's synthetic-content rules (`ITR-SGI-PLATFORM`, Feb 2026) and ASCI's AI-labelling guidelines (`SGC-LABEL-REQUIRED`, `SGC-LABEL-FORM`, `SGC-NO-LABEL`, `SGC-PROHIBITED`, from 29 Dec 2026) | Specific, checkable rules with clause and date, where competitors mention AI labels only in general terms. Nothing to add |
 | ✅ **Step 8 reads Content Credentials** with the open C2PA tools instead of rebuilding them | Free and standard; ClaimTrail adds the decision ("label needed: yes, no, or a person decides") |
 | ✗ **Not doing:** certification or legal clearance | Tap-a-Gain sells expert human review; ClaimTrail stays a pre-screen that routes to *your* named reviewer |
 | ✗ **Not doing:** US or financial-services rule packs | Luthor and others own that; ClaimTrail's edge is India |
