@@ -65,6 +65,14 @@ sequenceDiagram
 | 📏 | Measured, not claimed | Frozen held-out set, code-based evaluators, red teaming, and a CI gate that fails a change when recall drops |
 | ₹ | Cost per ad is a feature | Overnight batch, one retry layer, prompt caching, and ₹ per creative on a dashboard |
 
+## Who else does this
+
+<img src="docs/img/competitors.svg" width="100%" alt="Capability matrix: ClaimTrail by roadmap step against Tap-a-Gain AdCheck, AdCheck India, ChatGPT or Gemini with a prompt, Puntt, Haast, Luthor and Content Credentials Verify">
+
+- **Checking one ad is already free.** Tap-a-Gain's AdCheck is a custom GPT built by a former ASCI Secretary-General.
+- **The gap ClaimTrail targets:** reels in Hindi, Tamil and Telugu, timed to the frame, checked against the brand's own evidence, with a named sign-off and a measured accuracy.
+- Details and what changed in the plan: [COMPETITORS.md](COMPETITORS.md).
+
 ## Roadmap
 
 <img src="docs/img/roadmap.svg" width="100%" alt="Roadmap: 0 of 11 steps done; step 0, accounts and guard rails, is next">
@@ -76,7 +84,7 @@ sequenceDiagram
 |---|---|---|
 | 0 | Accounts, budget alarms, block expensive deployments | The cloud bill can't surprise anyone |
 | 1 | Script checker | Strict structured output and tool calls |
-| 2 | Cited rules and evidence | Hybrid search with a per-brand filter |
+| 2 | Cited rules and evidence | Hybrid search with a per-brand filter; rules include MeitY's synthetic-content amendment and ASCI's AI-labelling guidelines |
 | 3 | Injection shield | Ads and PDFs can't instruct the model |
 | 4 | Reels and lab reports become timelines | Video and documents read to the frame and the page |
 | 5 | Every language, every image | Hindi, Tamil, Telugu and English; claim types |
@@ -84,7 +92,7 @@ sequenceDiagram
 | 7 | Named human sign-off | An approval the platform enforces |
 | 8 | One "check campaign" workflow | AI-label decision and suggested fixes in one command |
 | 9 | Campaign scale | 200 ads overnight and ₹ per creative |
-| 10 | Evaluated, red-teamed, CI-gated, hosted | The numbers in this README come from files, not claims |
+| 10 | Evaluated, red-teamed, CI-gated, hosted | The numbers in this README come from files, not claims, including a ChatGPT or Gemini with-a-prompt baseline on the same held-out set |
 
 </details>
 
